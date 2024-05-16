@@ -1,13 +1,13 @@
-const Header = ({ course }) => {
+const Header = () => {
+    const course = 'Half Stack application development'
 
     return (
-        <div>
-            <h1>{course}</h1>
-        </div>
+        <h1>{ course }</h1>
     )
 }
 
 export default Header
+
 
 
 
