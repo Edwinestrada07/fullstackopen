@@ -1,14 +1,12 @@
-const Header = () => {
-    const course = 'Half Stack application development'
-
+const Header = ({ courseName }) => {
+    
+    //console.log(courseName    )
     return (
-        <h1>{ course }</h1>
+        <h1>{ courseName }</h1>
     )
 }
 
 export default Header
-
-
 
 
 
