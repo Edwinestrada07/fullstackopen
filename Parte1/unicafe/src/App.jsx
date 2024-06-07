@@ -18,8 +18,8 @@ const App = () => {
     return (
         <div>
             <h1>give feedback</h1>
-            <Button onClick={handleGoodClick} text="Good" />
-            <Button onClick={handleNeutralClick} text="Neutral" />
+            <Button onClick={handleGoodClick} text="Good" />rEnviar
+            <Button onClick={handleNeutralClick} text="Neutral" />rEnviar
             <Button onClick={handleBadClick} text="Bad" />
 
             <h2>statistics</h2>
